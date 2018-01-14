@@ -50,6 +50,31 @@
   font-size: 62.5%; /* 1 rem = 10 px */
 }
 
+
+
+
+
+
+
+
+
+
 body {
+  background: var(--almost-white);
+}
+
+main {
+  background: var(--almost-black);
+  display: grid;
+  grid-template: auto / repeat(12, 1fr);
+  grid-gap: 1rem;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+
+#content {
+  grid-area: span 3 / span 12;
+  margin: calc(var(--space)*2) 0 calc(var(--space)*2) 0;
+  padding: calc(var(--space)*2);
   background: #ccc;
 }
