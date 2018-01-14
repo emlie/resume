@@ -68,6 +68,7 @@ main {
   display: grid;
   grid-template: auto / repeat(12, 1fr);
   grid-gap: 1rem;
+
   max-width: 75vw;
   margin: 0 auto;
 }
